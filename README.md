@@ -6,11 +6,9 @@ An advanced multimodal AI system that transforms a single photo of a real-world 
 
 Upload a photo of any everyday object (fan, chair, tool, gadget) and the system generates:
 
-- **Fictional but plausible blueprints** with technical details
 - **Step-by-step assembly/disassembly instructions**
 - **AI-generated technical diagrams** for each step
 - **Instructional video tutorials** showing motion and assembly
-- **Voice narration** for hands-free learning
 - **Conversational AI assistant** that understands the generated blueprint
 
 This turns curiosity ("How is this made?") into a hands-on learning experience, blending engineering education, storytelling, and creativity.
@@ -32,8 +30,7 @@ This turns curiosity ("How is this made?") into a hands-on learning experience, 
 ### AI Models Used
 - **MiniMax-Text-01**: Vision, chat, blueprint generation
 - **image-generation-01**: Technical diagram generation
-- **video-01**: Instructional video tutorials
-- **speech-01-hd**: Voice narration
+
 
 ---
 
@@ -356,17 +353,10 @@ Per complete blueprint (with all assets):
 | Audio (per step) | ~$0.001 | On-demand, 5-8 steps |
 | Chat (per message) | ~$0.005 | User-initiated |
 
-**Total per blueprint**: $1-3 depending on how many steps user synthesizes.
+
 
 ---
 
-## Design Philosophy
-
-### Visual Aesthetic
-- **Archival/Technical theme**: Sepia tones, blueprint grids, technical doodles
-- **Dark mode**: Paper (#0C0A09), Espresso (#1C1917), Mocha (#24211E)
-- **Accent colors**: Warm cream (#F5F2F0), Cyan highlights for interactive elements
-- **Typography**: Space Mono (mono), Playfair Display (serif), Poppins (body)
 
 ### User Experience
 - **Minimal friction**: Upload → Detect → Select → Generate → Synthesize
